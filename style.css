@@ -1,0 +1,107 @@
+body{
+    margin:0 ;
+    padding: 0;
+}
+
+header{
+    font-family: Inconsolata;
+font-size: 20px;
+font-weight: 710;
+margin-top: 40px;
+margin-left: 70px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    margin-right: 90px;
+}
+
+.divtext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 140px;
+}
+
+.divh1{
+    font-family: Space Mono;
+
+
+}
+
+button{
+    background: black;
+    color: white;
+    font-family: space Mono;
+    font-size: 14px; 
+    height: 40px;
+    transition: transition .4s;
+}
+
+button:hover{
+    transform: scaleX(0.8);
+    text-decoration: overline;
+}
+
+.button{
+    margin-top: 40px;
+    padding: 5px;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    color: black;
+    opacity: 0.8;
+}
+
+.footer img{
+    margin-top: 5px;
+}
+
+.image img{
+    transition: transform .4s;
+}
+
+.image img:hover{
+    transform: scaleX(1.2) rotate(360deg) ;
+}
+
+a{
+    color: rosybrown;
+    
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:750px) {
+
+.img{
+    margin-left: 110px;
+    width: 350px;
+    height: 350px;
+}
+
+    .footer{
+        text-align: center;
+    }
+    header{
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
